@@ -17,26 +17,63 @@ namespace _2Jumpr
         public MainPage()
         {
             InitializeComponent();
-
+            this.Loaded += MainPage_Loaded;
             // 用于本地化 ApplicationBar 的示例代码
             //BuildLocalizedApplicationBar();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("his count:" + (App.HistroyList ?? new List<Model.JumperModel>()).Count);
+        }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                Windows.System.Launcher.LaunchUriAsync(new Uri(textBox1.Text));
+                await Windows.System.Launcher.LaunchUriAsync(new Uri(textBox1.Text));
+                
+                if (App.HistroyList == null)
+                    App.HistroyList = new List<Model.JumperModel>();
+                else
+                    App.HistroyList.Add(
+                            new Model.JumperModel()
+                            {
+                                DateTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm"),
+                                Path = textBox1.Text
+                            }
+                        );
             }
             catch
             {
-                MessageBox.Show("Wrong URI", "Error", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.MsgBoxContent, AppResources.MsgBoxTitle, MessageBoxButton.OK);
             }
         }
 
-        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        private async void textBox1_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
-
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                try
+                {
+                    var isSuccess = await Windows.System.Launcher.LaunchUriAsync(new Uri(textBox1.Text));
+                    
+                    if (App.HistroyList == null)
+                        App.HistroyList = new List<Model.JumperModel>();
+                    else
+                        App.HistroyList.Add(
+                                new Model.JumperModel()
+                                {
+                                    DateTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm"),
+                                    Path = textBox1.Text
+                                }
+                            );
+                }
+                catch
+                {
+                    MessageBox.Show(AppResources.MsgBoxContent, AppResources.MsgBoxTitle, MessageBoxButton.OK);
+                }
+            }
         }
 
         // 用于生成本地化 ApplicationBar 的示例代码

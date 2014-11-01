@@ -50,11 +50,21 @@
                     <SolidColorBrush Color="{StaticResource PhoneAccentColor}"/>
                 </Rectangle.Fill>
             </Rectangle>
-            <TextBlock x:Name="miniTitle" HorizontalAlignment="Left" Margin="20,135,0,0" TextWrapping="Wrap" Text="Target URI" VerticalAlignment="Top" Foreground="#DEFFFFFF"/>
-            <TextBox x:Name="textBox1" Height="300" Margin="10,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="460" BorderBrush="#26FFFFFF" Background="#26FFFFFF" Foreground="#FF7F7F7F"/>
-            <Button Content="Jump!" Margin="70,472,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="316" Click="Button_Click" BorderThickness="0" Background="#FF383B40" Foreground="#DEFFFFFF"/>
+            <TextBlock x:Name="miniTitle" HorizontalAlignment="Left" Margin="20,135,0,0" TextWrapping="Wrap" Text="{Binding LocalizedResources.miniTitle, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" Foreground="#DEFFFFFF"/>
+            <TextBox x:Name="textBox1"
+                     InputScope="Search"
+                     KeyDown="textBox1_KeyDown"
+                     Height="300" Margin="10,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="460" BorderBrush="#26FFFFFF" Background="#26FFFFFF" Foreground="#FF7F7F7F"/>
+            <Button 
+                
+            Visibility="Collapsed"
+                Content="{Binding LocalizedResources.btnJumpContent,Source={StaticResource LocalizedStrings}}" Margin="70,472,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="316" Click="Button_Click" BorderThickness="0" Background="#FF383B40" Foreground="#DEFFFFFF"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="20,40,0,0" TextWrapping="Wrap" Text="2Jumpr" VerticalAlignment="Top" Height="117" FontSize="90" Width="450" FontFamily="/2Jumpr;component/Fonts/Fonts.zip#Arial Rounded MT Bold" Foreground="White" Grid.RowSpan="2"/>
+        <TextBlock 
+            HorizontalAlignment="Left" Margin="20,40,0,0" TextWrapping="Wrap" 
+                   
+                   Text="{Binding LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" 
+                   Height="117" FontSize="90" Width="450" FontFamily="/2Jumpr;component/Fonts/Fonts.zip#Arial Rounded MT Bold" Foreground="White" Grid.RowSpan="2"/>
         <Image Margin="12,10,424,0" Source="/Assets/Tiles/FlipCycleTileSmall.png" Stretch="Fill" Grid.RowSpan="2" Height="44" VerticalAlignment="Top"/>
 
         <!--取消注释，以显示对齐网格，从而帮助确保

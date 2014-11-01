@@ -122,16 +122,22 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value />
+    <value>zh-cn</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>我的应用程序</value>
+    <value>跳转</value>
   </data>
-  <data name="AppBarButtonText" xml:space="preserve">
-    <value>添加</value>
+  <data name="miniTitle" xml:space="preserve">
+    <value>目标 URI</value>
   </data>
-  <data name="AppBarMenuItemText" xml:space="preserve">
-    <value>菜单项</value>
+  <data name="MsgBoxContent" xml:space="preserve">
+    <value>错误地址，请重新尝试！！</value>
+  </data>
+  <data name="MsgBoxTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="btnJumpContent" xml:space="preserve">
+    <value>跳转</value>
   </data>
 </root>

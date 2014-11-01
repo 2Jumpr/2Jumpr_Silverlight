@@ -7,11 +7,21 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using _2Jumpr.Resources;
+using System.Collections.Generic;
+using Verne.StorageManager;
+using _2Jumper;
+using _2Jumpr.Model;
 
 namespace _2Jumpr
 {
     public partial class App : Application
     {
+        private string historyPath = "jump.txt";
+        /// <summary>
+        /// 數據教小，使用本地文件，Load入內存
+        /// 頁面需要使用歷史記錄的時候就用此集合，沒有做過濾，去重操作
+        /// </summary>
+        public static List<JumperModel> HistroyList;
         /// <summary>
         ///提供对电话应用程序的根框架的轻松访问。
         /// </summary>
@@ -61,24 +71,49 @@ namespace _2Jumpr
         // 此代码在重新激活应用程序时不执行
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            loadHistory();
         }
-
+        private void loadHistory()
+        {
+            try
+            {
+                HistroyList = JsonHelper.LoadJson<List<JumperModel>>(historyPath);
+            }
+            catch (Exception)
+            {
+                
+            }
+        }
+        private void saveHistory()
+        {
+            try
+            {
+                JsonHelper.SerializeData<List<JumperModel>>(historyPath, HistroyList);
+            }
+            catch (Exception)
+            {
+                
+            }
+        }
         // 激活应用程序(置于前台)时执行的代码
         // 此代码在首次启动应用程序时不执行
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            loadHistory();
         }
 
         // 停用应用程序(发送到后台)时执行的代码
         // 此代码在应用程序关闭时不执行
         private void Application_Deactivated(object sender, DeactivatedEventArgs e)
         {
+            saveHistory();
         }
 
         // 应用程序关闭(例如，用户点击“后退”)时执行的代码
         // 此代码在停用应用程序时不执行
         private void Application_Closing(object sender, ClosingEventArgs e)
         {
+            saveHistory();
         }
 
         // 导航失败时执行的代码
