@@ -55,10 +55,8 @@
                      InputScope="Search"
                      KeyDown="textBox1_KeyDown"
                      Height="300" Margin="10,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="460" BorderBrush="#26FFFFFF" Background="#26FFFFFF" Foreground="#FF7F7F7F"/>
-            <Button 
-                
-            Visibility="Collapsed"
-                Content="{Binding LocalizedResources.btnJumpContent,Source={StaticResource LocalizedStrings}}" Margin="70,472,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="316" Click="Button_Click" BorderThickness="0" Background="#FF383B40" Foreground="#DEFFFFFF"/>
+            <Button
+                Content="{Binding LocalizedResources.btnJumpContent,Source={StaticResource LocalizedStrings}}" Margin="70,472,70,0" VerticalAlignment="Top" Click="Button_Click" BorderThickness="0" Background="#FF383B40" Foreground="#DEFFFFFF"/>
         </Grid>
         <TextBlock 
             HorizontalAlignment="Left" Margin="20,40,0,0" TextWrapping="Wrap" 
