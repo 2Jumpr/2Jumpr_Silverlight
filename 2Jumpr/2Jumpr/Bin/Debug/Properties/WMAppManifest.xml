@@ -7,7 +7,7 @@
     <Language code="en-US" />
     <Language code="" />
   </Languages>
-  <App xmlns="" ProductID="{d01356da-c613-4d55-a705-dc7a9712d329}" Title="2Jumpr" RuntimeType="Silverlight" Version="1.0.0.1" Genre="apps.normal" Author="Toby Cao" Description="A simple and beautiful app what can launch URIs in a very fast way." Publisher="Umit" PublisherID="{bbfe2415-e52c-40aa-a393-10de352932af}">
+  <App xmlns="" ProductID="{d01356da-c613-4d55-a705-dc7a9712d329}" Title="2Jumpr BETA" RuntimeType="Silverlight" Version="1.0.0.1" Genre="apps.normal" Author="Toby Cao" Description="A simple and beautiful app what can launch URIs in a very fast way." Publisher="Umit" PublisherID="{bbfe2415-e52c-40aa-a393-10de352932af}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -25,7 +25,7 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title></Title>
+          <Title>BETA</Title>
           <BackContent></BackContent>
           <BackBackgroundImageURI></BackBackgroundImageURI>
           <BackTitle></BackTitle>

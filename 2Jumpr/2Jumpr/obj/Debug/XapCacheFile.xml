@@ -1,7 +1,7 @@
-﻿<xapCache source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\_2Jumpr_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014/11/2 7:49:31">
-  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\2Jumpr.dll" archivePath="2Jumpr.dll" lastWriteTime="2014/11/2 7:49:30" />
-  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\zh-CN\2Jumpr.resources.dll" archivePath="zh-CN\2Jumpr.resources.dll" lastWriteTime="2014/11/2 7:49:30" />
-  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\zh-TW\2Jumpr.resources.dll" archivePath="zh-TW\2Jumpr.resources.dll" lastWriteTime="2014/11/2 7:49:30" />
+﻿<xapCache source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\_2Jumpr_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014/11/2 9:26:29">
+  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\2Jumpr.dll" archivePath="2Jumpr.dll" lastWriteTime="2014/11/2 9:26:28" />
+  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\zh-CN\2Jumpr.resources.dll" archivePath="zh-CN\2Jumpr.resources.dll" lastWriteTime="2014/11/2 9:26:28" />
+  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\zh-TW\2Jumpr.resources.dll" archivePath="zh-TW\2Jumpr.resources.dll" lastWriteTime="2014/11/2 9:26:28" />
   <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014/10/31 21:14:17" />
   <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014/10/31 21:14:17" />
   <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014/10/31 21:14:18" />
@@ -16,5 +16,5 @@
   <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014/10/31 21:14:19" />
   <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014/10/31 21:14:17" />
   <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014/10/31 21:14:18" />
-  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/10/31 21:14:20" />
+  <file source="C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/11/2 9:26:29" />
 </xapCache>
