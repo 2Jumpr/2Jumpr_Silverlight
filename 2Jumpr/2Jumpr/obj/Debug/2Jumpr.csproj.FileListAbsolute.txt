@@ -49,3 +49,28 @@ C:\Users\vernepung\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\X
 C:\Users\vernepung\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\zh-CN\2Jumpr.resources.dll
 C:\Users\vernepung\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\_2Jumpr.Resources.AppResources.zh-CN.resources
 C:\Users\vernepung\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\zh-CN\2Jumpr.resources.dll
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\2Jumpr.dll
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\2Jumpr.pdb
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\zh-CN\2Jumpr.resources.dll
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\zh-TW\2Jumpr.resources.dll
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\AppManifest.xaml
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\Bin\Debug\_2Jumpr_Debug_AnyCPU.xap
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\App.g.cs
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\MainPage.g.cs
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\2Jumpr.g.resources
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\_2Jumpr.Resources.AppResources.resources
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\_2Jumpr.Resources.AppResources.zh-CN.resources
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\_2Jumpr.Resources.AppResources.zh-TW.resources
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\2Jumpr.csproj.GenerateResource.Cache
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\zh-CN\2Jumpr.resources.dll
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\zh-TW\2Jumpr.resources.dll
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\2Jumpr.dll
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\2Jumpr.pdb
+C:\Users\Toby Cao\Documents\GitHub\2Jumpr_Silverlight\2Jumpr\2Jumpr\obj\Debug\XapCacheFile.xml
