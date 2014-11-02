@@ -1,9 +1,9 @@
 关于 HistoryPage
 =
 Page 的 title 应该是<br>
-历史记录<br>
+>历史记录<br>
 歷程記錄<br>
-History<br>
+History><br>
 <br>
 History 里面的每一项历史记录轻触可以跳转，
 长按如 Windows Phone 的应用界面一样，
