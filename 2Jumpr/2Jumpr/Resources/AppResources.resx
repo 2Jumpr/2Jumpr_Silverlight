@@ -126,16 +126,16 @@
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>2Jumper</value>
+    <value>2Jumpr</value>
   </data>
   <data name="miniTitle" xml:space="preserve">
     <value>Target URI</value>
   </data>
   <data name="MsgBoxContent" xml:space="preserve">
-    <value>wrong URI,please try align!!!</value>
+    <value>Wrong URI, please try another.</value>
   </data>
   <data name="MsgBoxTitle" xml:space="preserve">
-    <value>Jumper Error</value>
+    <value>Error</value>
   </data>
   <data name="btnJumpContent" xml:space="preserve">
     <value>Jump</value>

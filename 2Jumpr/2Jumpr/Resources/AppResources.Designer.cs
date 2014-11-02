@@ -61,7 +61,7 @@ namespace _2Jumpr.Resources {
         }
         
         /// <summary>
-        ///   查找类似 2Jumper 的本地化字符串。
+        ///   查找类似 2Jumpr 的本地化字符串。
         /// </summary>
         public static string ApplicationTitle {
             get {
@@ -88,7 +88,7 @@ namespace _2Jumpr.Resources {
         }
         
         /// <summary>
-        ///   查找类似 wrong URI,please try align!!! 的本地化字符串。
+        ///   查找类似 Wrong URI, please try another. 的本地化字符串。
         /// </summary>
         public static string MsgBoxContent {
             get {
@@ -97,7 +97,7 @@ namespace _2Jumpr.Resources {
         }
         
         /// <summary>
-        ///   查找类似 Jumper Error 的本地化字符串。
+        ///   查找类似 Error 的本地化字符串。
         /// </summary>
         public static string MsgBoxTitle {
             get {
